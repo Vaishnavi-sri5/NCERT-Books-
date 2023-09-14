@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 100px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 100px;
+    width: 100px;
+}
+.logo{
+    background-image: url("ncert\ logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.classes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    border-bottom: 2px solid #007185;
+}
+
+.box {
+    /* border: 2px solid black ; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 15px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #007185;
+}
+h2{
+    color: #0f1111;
+}
+
+a{
+    text-decoration: none;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
